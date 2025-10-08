@@ -1,0 +1,24 @@
+name: hailey_hailey
+type: theme
+'base theme': stable9
+version: 1.0.0
+libraries:
+  - hailey_hailey/base
+  - hailey_hailey/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - hailey_hailey/user
+  core/drupal.dropbutton:
+    - hailey_hailey/dropbutton
+  core/drupal.dialog:
+    - hailey_hailey/dialog
+  file/drupal.file:
+    - hailey_hailey/file
+  core/drupal.progress:
+    - hailey_hailey/progress
+  core/drupal.tablesort:
+    - hailey_hailey/drupal.tablesort
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.2.5'

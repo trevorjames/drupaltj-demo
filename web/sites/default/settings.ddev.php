@@ -51,5 +51,5 @@ $config['system.logging']['error_level'] = 'verbose';
 // added by rfay/ddev-drushonhost add-on
 if (!getenv('DDEV_PHP_VERSION') && getenv('IS_DDEV_PROJECT') == 'true') {
   $databases['default']['default']['host'] = '127.0.0.1';
-  $databases['default']['default']['port'] = 52230;
+  $databases['default']['default']['port'] = 58394;
 }
